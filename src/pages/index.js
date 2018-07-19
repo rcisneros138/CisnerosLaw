@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 
 import pic01 from '../assets/images/Anthony.jpg'
 import pic02 from '../assets/images/will_county_seal.jpg'
-import pic03 from '../assets/images/kankakee_county_seal.png'
+import pic03 from '../assets/images/kankakee_county_seal.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
