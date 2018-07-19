@@ -6,8 +6,8 @@ class Header extends React.Component {
             <section id="header">
                 <div className="inner">
                     <span className="icon major fa-gavel"></span>
-                    <h1> <strong> Anthony Cisneros P.C.</strong>  </h1>
-                    <p>Immingration Lawyer</p>
+                    <h1> <strong> Cisneros Law P.C.</strong>  </h1>
+                    <p>Immigration | Family Law | Wills <br/> Trusts and Estates | Traffic | DUI</p>
                     <ul className="actions">
                         <li><a href="#one" className="button scrolly">About Me</a></li>
                     </ul>

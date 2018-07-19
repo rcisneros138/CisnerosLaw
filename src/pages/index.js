@@ -3,8 +3,8 @@ import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
 import pic01 from '../assets/images/Anthony.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import pic02 from '../assets/images/will_county_seal.jpg'
+import pic03 from '../assets/images/kankakee_county_seal.png'
 import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
@@ -22,7 +22,9 @@ class Homepage extends React.Component {
                                 <h2>Lorem ipsum dolor adipiscing<br />
                                 amet dolor consequat</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+                            <p>Graduate of Lewis University in Romeoville, IL where he was a member of the Award Winning Lewis University Mock Trial team, wrote for the Flyer newspaper, and interned in the Lee County states attorneys office where he worked on a family law and criminal law cases, including a murder case.</p>
+
+                           <p> After graduating from Lewis University, took the LSAT and scored well enough to immediately be accepted into the law program at Western Michigan University. While there served as a senator in the Delta Theta Pi Power Senate, served as Senior Editor of Law Journal, as well as worked in the 30th Districts Veterans Memorial court before graduating with a Juris Doctorate and moving back to the Chicago Suburbs.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={pic01} alt="" /></span>
@@ -58,31 +60,31 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Member</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            {/* <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p> */}
                         </div>
 
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Will County Bar Association</h3>
+                            <br/>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3> Kankakee County Bar Association</h3>
+                            
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <h3>Latino Bar Association</h3>
+                            <br/>
                             <ul className="actions">
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
@@ -91,7 +93,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="four" className="main style2 special">
+                {/* <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
                             <h2>Ipsum feugiat consequat?</h2>
@@ -102,7 +104,7 @@ class Homepage extends React.Component {
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>
                     </div>
-                </section>
+                </section> */}
             </div>
         );
     }
